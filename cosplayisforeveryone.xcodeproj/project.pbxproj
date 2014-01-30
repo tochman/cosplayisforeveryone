@@ -21,6 +21,7 @@
 		CBF41F3F1876A01D001AF090 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF41F211876A01D001AF090 /* UIKit.framework */; };
 		CBF41F471876A01D001AF090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBF41F451876A01D001AF090 /* InfoPlist.strings */; };
 		CBF41F491876A01D001AF090 /* cosplayisforeveryoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF41F481876A01D001AF090 /* cosplayisforeveryoneTests.m */; };
+		CBF41F531876A3E6001AF090 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF41F521876A3E6001AF090 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		CBF41F441876A01D001AF090 /* cosplayisforeveryoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cosplayisforeveryoneTests-Info.plist"; sourceTree = "<group>"; };
 		CBF41F461876A01D001AF090 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CBF41F481876A01D001AF090 /* cosplayisforeveryoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cosplayisforeveryoneTests.m; sourceTree = "<group>"; };
+		CBF41F521876A3E6001AF090 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBF41F531876A3E6001AF090 /* MessageUI.framework in Frameworks */,
 				CBF41F201876A01D001AF090 /* CoreGraphics.framework in Frameworks */,
 				CBF41F221876A01D001AF090 /* UIKit.framework in Frameworks */,
 				CBF41F1E1876A01D001AF090 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		CBF41F1C1876A01D001AF090 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CBF41F521876A3E6001AF090 /* MessageUI.framework */,
 				CBF41F1D1876A01D001AF090 /* Foundation.framework */,
 				CBF41F1F1876A01D001AF090 /* CoreGraphics.framework */,
 				CBF41F211876A01D001AF090 /* UIKit.framework */,

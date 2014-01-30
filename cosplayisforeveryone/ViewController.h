@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MessageUI/MessageUI.h>
+#import <MessageUI/MFMailComposeViewController.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<MFMailComposeViewControllerDelegate>
+
+@property (strong, nonatomic) MFMailComposeViewController *mailcontroller;
+@property (strong, nonatomic) NSString *adress;
+@property (strong, nonatomic) NSArray *adressArray;
+@property (strong, nonatomic) UIImage *myImage;
+@property (strong, nonatomic) NSData *imageData;
+
+- (IBAction)shareButton;
 
 @end
+
