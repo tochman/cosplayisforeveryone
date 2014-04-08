@@ -9,28 +9,31 @@
             <objects>
                 <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Arp-YT-RiA"/>
-                        <viewControllerLayoutGuide type="bottom" id="vyM-Tg-4U1"/>
+                        <viewControllerLayoutGuide type="top" id="Fnf-zk-MHT"/>
+                        <viewControllerLayoutGuide type="bottom" id="2et-ou-WaS"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="krs-39-a71">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="krs-39-a71">
                                 <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <subviews>
-                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="COSPLAY is for EVERYONE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OTi-db-fvt">
+                                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COSPLAY is for EVERYONE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OTi-db-fvt">
                                         <rect key="frame" x="20" y="20" width="280" height="23"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" red="0.8593757058" green="0.79606625480000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gVb-gU-jOH">
-                                        <rect key="frame" x="24" y="514" width="272" height="34"/>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gVb-gU-jOH">
+                                        <rect key="frame" x="20" y="509" width="272" height="34"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <color key="backgroundColor" red="0.50743931223400796" green="0.0" blue="0.80620216840000003" alpha="1" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="34" id="y9U-PN-46F"/>
+                                        </constraints>
                                         <color key="tintColor" red="0.8593757058" green="0.79606625480000004" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="SHARE">
                                             <color key="titleColor" red="0.65410491849999997" green="0.48020035430000002" blue="0.80620216840000003" alpha="1" colorSpace="calibratedRGB"/>
@@ -40,13 +43,17 @@
                                             <action selector="shareButton" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nB8-9Z-rSI"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image" highlightedImage="Image" translatesAutoresizingMaskIntoConstraints="NO" id="3E4-B5-fyq">
-                                        <rect key="frame" x="20" y="74" width="280" height="420"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" placeholderIntrinsicWidth="280" placeholderIntrinsicHeight="332" image="Image" highlightedImage="Image" translatesAutoresizingMaskIntoConstraints="NO" id="3E4-B5-fyq">
+                                        <rect key="frame" x="20" y="74" width="280" height="332"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfw-vt-SVK">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dfw-vt-SVK">
                                         <rect key="frame" x="206" y="44" width="114" height="31"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="31" id="W95-5y-U33"/>
+                                            <constraint firstAttribute="width" constant="114" id="wih-s2-6n3"/>
+                                        </constraints>
                                         <state key="normal" title="More info">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -56,9 +63,31 @@
                                         </connections>
                                     </button>
                                 </subviews>
+                                <constraints>
+                                    <constraint firstItem="OTi-db-fvt" firstAttribute="top" secondItem="krs-39-a71" secondAttribute="top" constant="20" symbolic="YES" id="3hS-Dw-Lbo"/>
+                                    <constraint firstItem="gVb-gU-jOH" firstAttribute="top" secondItem="3E4-B5-fyq" secondAttribute="bottom" constant="20" id="5VW-vI-WNm"/>
+                                    <constraint firstItem="gVb-gU-jOH" firstAttribute="leading" secondItem="krs-39-a71" secondAttribute="leading" constant="24" id="Cwa-Vo-1I6"/>
+                                    <constraint firstItem="dfw-vt-SVK" firstAttribute="top" secondItem="krs-39-a71" secondAttribute="top" constant="44" id="Kcn-9B-BRS"/>
+                                    <constraint firstAttribute="trailing" secondItem="OTi-db-fvt" secondAttribute="trailing" constant="20" symbolic="YES" id="Paa-If-cbe"/>
+                                    <constraint firstItem="OTi-db-fvt" firstAttribute="trailing" secondItem="3E4-B5-fyq" secondAttribute="trailing" id="Rv2-Pz-dli"/>
+                                    <constraint firstItem="dfw-vt-SVK" firstAttribute="top" secondItem="OTi-db-fvt" secondAttribute="bottom" constant="1" id="VSc-ez-7bG"/>
+                                    <constraint firstAttribute="trailing" secondItem="dfw-vt-SVK" secondAttribute="trailing" id="Wq7-no-YJ4"/>
+                                    <constraint firstItem="3E4-B5-fyq" firstAttribute="centerY" secondItem="krs-39-a71" secondAttribute="centerY" id="ZUE-vC-N0X"/>
+                                    <constraint firstItem="gVb-gU-jOH" firstAttribute="centerX" secondItem="3E4-B5-fyq" secondAttribute="centerX" id="aFV-6C-rFF"/>
+                                    <constraint firstItem="OTi-db-fvt" firstAttribute="leading" secondItem="3E4-B5-fyq" secondAttribute="leading" id="imN-Wi-8mN"/>
+                                    <constraint firstItem="OTi-db-fvt" firstAttribute="leading" secondItem="krs-39-a71" secondAttribute="leading" constant="20" symbolic="YES" id="mza-Ei-b2x"/>
+                                    <constraint firstAttribute="bottom" secondItem="gVb-gU-jOH" secondAttribute="bottom" constant="20" symbolic="YES" id="nPE-nc-Cm7"/>
+                                </constraints>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.26276545559107611" green="0.02953812970156813" blue="0.40124760841836737" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="2et-ou-WaS" firstAttribute="top" secondItem="gVb-gU-jOH" secondAttribute="bottom" constant="25" id="0sS-ZY-2kV"/>
+                            <constraint firstAttribute="bottom" secondItem="krs-39-a71" secondAttribute="bottom" id="5Tx-6V-q4h"/>
+                            <constraint firstItem="krs-39-a71" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="CVn-YF-rhV"/>
+                            <constraint firstAttribute="trailing" secondItem="krs-39-a71" secondAttribute="trailing" id="E66-bm-0RX"/>
+                            <constraint firstItem="krs-39-a71" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="oEQ-fd-8IE"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="Ygd-wO-NE4"/>
                     <connections>
@@ -67,36 +96,33 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="368" y="-112"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="DVp-HU-E8f">
             <objects>
                 <viewController id="Nv2-0T-OPB" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="QD9-ae-mDO"/>
-                        <viewControllerLayoutGuide type="bottom" id="gsC-5J-0B6"/>
+                        <viewControllerLayoutGuide type="top" id="ey1-9y-qde"/>
+                        <viewControllerLayoutGuide type="bottom" id="jra-Z8-g1K"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Iae-aJ-SLD">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eeg-3b-h1x">
-                                <rect key="frame" x="0.0" y="26" width="320" height="44"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                                <items>
-                                    <navigationItem title="More info" id="xjg-0k-VAq"/>
-                                </items>
-                            </navigationBar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNL-Yh-Odr">
-                                <rect key="frame" x="10" y="80" width="300" height="432"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNL-Yh-Odr">
+                                <rect key="frame" x="10" y="87" width="300" height="283"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="283" id="e6t-pt-LcG"/>
+                                </constraints>
                                 <string key="text">Let us bring back the smiles, the joy and the fun to the cosplay community! Cosplay is not a beauty contest, it's an art where we can enter a wonderful world, make new friends, enjoy yourselfs and live in a magic dimension for a while. Since cosplay has become more mainstream the last years, there's also been a drastic change. Dividing the community, and bringing up a discussion that there are certain "standards" that you must live up to, if you are going to cosplay. But there are no rules, no such thing as standards when it comes to cosplay. It's an art - where every performer is unique and of value. Where everyone should feel comfortable and be welcomed. This app was created with the hope to spread the message around the world: Cosplay is for everyone. Share our picture and together we can bring the smiles of happiness back into the community! Thank you for being a part of this.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gc-I5-K5L">
-                                <rect key="frame" x="89" y="489" width="143" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gc-I5-K5L">
+                                <rect key="frame" x="89" y="485" width="143" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -105,8 +131,25 @@
                                     <segue destination="vXZ-lx-hvc" kind="modal" id="2k3-I8-yjj"/>
                                 </connections>
                             </button>
+                            <navigationBar contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eeg-3b-h1x">
+                                <rect key="frame" x="0.0" y="26" width="320" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="More info" id="xjg-0k-VAq"/>
+                                </items>
+                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="jra-Z8-g1K" firstAttribute="top" secondItem="2gc-I5-K5L" secondAttribute="bottom" constant="9" id="8tY-vH-Uq2"/>
+                            <constraint firstItem="jra-Z8-g1K" firstAttribute="top" secondItem="2gc-I5-K5L" secondAttribute="bottom" constant="9" id="Cpf-kl-6KH"/>
+                            <constraint firstItem="2gc-I5-K5L" firstAttribute="centerX" secondItem="zNL-Yh-Odr" secondAttribute="centerX" id="S6V-5T-OJo"/>
+                            <constraint firstItem="2gc-I5-K5L" firstAttribute="leading" secondItem="Iae-aJ-SLD" secondAttribute="leading" constant="89" id="cVB-bI-jEX"/>
+                            <constraint firstItem="zNL-Yh-Odr" firstAttribute="top" secondItem="2gc-I5-K5L" secondAttribute="top" constant="-398" id="hm0-o3-T3V"/>
+                            <constraint firstItem="zNL-Yh-Odr" firstAttribute="leading" secondItem="Iae-aJ-SLD" secondAttribute="leading" constant="10" id="i8e-hx-VgR"/>
+                            <constraint firstItem="eeg-3b-h1x" firstAttribute="top" secondItem="zNL-Yh-Odr" secondAttribute="top" constant="-61" id="ohh-pl-0om"/>
+                            <constraint firstItem="2gc-I5-K5L" firstAttribute="centerX" secondItem="Iae-aJ-SLD" secondAttribute="centerX" id="pBy-ad-4U7"/>
+                        </constraints>
                     </view>
                     <toolbarItems/>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>

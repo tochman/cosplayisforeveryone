@@ -19,8 +19,6 @@
 		CBF41F3D1876A01D001AF090 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF41F3C1876A01D001AF090 /* XCTest.framework */; };
 		CBF41F3E1876A01D001AF090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF41F1D1876A01D001AF090 /* Foundation.framework */; };
 		CBF41F3F1876A01D001AF090 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF41F211876A01D001AF090 /* UIKit.framework */; };
-		CBF41F471876A01D001AF090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBF41F451876A01D001AF090 /* InfoPlist.strings */; };
-		CBF41F491876A01D001AF090 /* cosplayisforeveryoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF41F481876A01D001AF090 /* cosplayisforeveryoneTests.m */; };
 		CBF41F531876A3E6001AF090 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF41F521876A3E6001AF090 /* MessageUI.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,9 +49,6 @@
 		CBF41F351876A01D001AF090 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		CBF41F3B1876A01D001AF090 /* cosplayisforeveryoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cosplayisforeveryoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF41F3C1876A01D001AF090 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		CBF41F441876A01D001AF090 /* cosplayisforeveryoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "cosplayisforeveryoneTests-Info.plist"; sourceTree = "<group>"; };
-		CBF41F461876A01D001AF090 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		CBF41F481876A01D001AF090 /* cosplayisforeveryoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cosplayisforeveryoneTests.m; sourceTree = "<group>"; };
 		CBF41F521876A3E6001AF090 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -86,7 +81,6 @@
 			isa = PBXGroup;
 			children = (
 				CBF41F231876A01D001AF090 /* cosplayisforeveryone */,
-				CBF41F421876A01D001AF090 /* cosplayisforeveryoneTests */,
 				CBF41F1C1876A01D001AF090 /* Frameworks */,
 				CBF41F1B1876A01D001AF090 /* Products */,
 			);
@@ -138,24 +132,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		CBF41F421876A01D001AF090 /* cosplayisforeveryoneTests */ = {
-			isa = PBXGroup;
-			children = (
-				CBF41F481876A01D001AF090 /* cosplayisforeveryoneTests.m */,
-				CBF41F431876A01D001AF090 /* Supporting Files */,
-			);
-			path = cosplayisforeveryoneTests;
-			sourceTree = "<group>";
-		};
-		CBF41F431876A01D001AF090 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				CBF41F441876A01D001AF090 /* cosplayisforeveryoneTests-Info.plist */,
-				CBF41F451876A01D001AF090 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -200,7 +176,7 @@
 		CBF41F121876A01D001AF090 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Luchinda Wollin";
 				TargetAttributes = {
 					CBF41F3A1876A01D001AF090 = {
@@ -242,7 +218,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBF41F471876A01D001AF090 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +238,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CBF41F491876A01D001AF090 /* cosplayisforeveryoneTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,14 +268,6 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		CBF41F451876A01D001AF090 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CBF41F461876A01D001AF090 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -309,7 +275,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -348,7 +313,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -406,7 +370,6 @@
 		CBF41F501876A01D001AF090 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cosplayisforeveryone.app/cosplayisforeveryone";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -429,7 +392,6 @@
 		CBF41F511876A01D001AF090 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/cosplayisforeveryone.app/cosplayisforeveryone";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -464,6 +426,7 @@
 				CBF41F4E1876A01D001AF090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CBF41F4F1876A01D001AF090 /* Build configuration list for PBXNativeTarget "cosplayisforeveryoneTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +435,7 @@
 				CBF41F511876A01D001AF090 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
