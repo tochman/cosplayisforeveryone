@@ -112,7 +112,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNL-Yh-Odr">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zNL-Yh-Odr">
                                 <rect key="frame" x="10" y="87" width="300" height="283"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -120,7 +120,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gc-I5-K5L">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2gc-I5-K5L">
                                 <rect key="frame" x="89" y="397" width="143" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Back">
@@ -130,7 +130,7 @@
                                     <segue destination="vXZ-lx-hvc" kind="modal" id="2k3-I8-yjj"/>
                                 </connections>
                             </button>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eeg-3b-h1x">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eeg-3b-h1x">
                                 <rect key="frame" x="0.0" y="26" width="320" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
@@ -140,7 +140,17 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="2gc-I5-K5L" firstAttribute="centerX" secondItem="zNL-Yh-Odr" secondAttribute="centerX" id="3eB-l8-PgA"/>
+                            <constraint firstItem="eeg-3b-h1x" firstAttribute="leading" secondItem="Iae-aJ-SLD" secondAttribute="leading" id="6yh-I3-9I3"/>
+                            <constraint firstItem="2gc-I5-K5L" firstAttribute="centerX" secondItem="Iae-aJ-SLD" secondAttribute="centerX" id="7Fg-fQ-yLS"/>
+                            <constraint firstItem="zNL-Yh-Odr" firstAttribute="leading" secondItem="Iae-aJ-SLD" secondAttribute="leading" constant="10" id="E3P-s2-WOe"/>
+                            <constraint firstItem="2gc-I5-K5L" firstAttribute="top" secondItem="zNL-Yh-Odr" secondAttribute="bottom" constant="27" id="EEh-Wz-Sl3"/>
+                            <constraint firstItem="2gc-I5-K5L" firstAttribute="leading" secondItem="Iae-aJ-SLD" secondAttribute="leading" constant="89" id="GCU-7G-ZYf"/>
+                            <constraint firstItem="zNL-Yh-Odr" firstAttribute="top" secondItem="eeg-3b-h1x" secondAttribute="bottom" constant="17" id="Vhc-nk-crj"/>
                             <constraint firstItem="rN5-AR-YAS" firstAttribute="top" secondItem="2gc-I5-K5L" secondAttribute="bottom" constant="9" id="ghW-ew-qfv"/>
+                            <constraint firstItem="eeg-3b-h1x" firstAttribute="centerX" secondItem="zNL-Yh-Odr" secondAttribute="centerX" id="jqE-ay-dGV"/>
+                            <constraint firstItem="eeg-3b-h1x" firstAttribute="top" secondItem="3sw-ZP-RbP" secondAttribute="bottom" constant="6" id="meo-Uh-6ex"/>
+                            <constraint firstItem="2gc-I5-K5L" firstAttribute="centerX" secondItem="eeg-3b-h1x" secondAttribute="centerX" id="y7y-sP-90I"/>
                         </constraints>
                     </view>
                     <toolbarItems/>
