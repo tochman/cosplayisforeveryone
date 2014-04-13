@@ -20,6 +20,9 @@
 		CBF41F3E1876A01D001AF090 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF41F1D1876A01D001AF090 /* Foundation.framework */; };
 		CBF41F3F1876A01D001AF090 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF41F211876A01D001AF090 /* UIKit.framework */; };
 		CBF41F531876A3E6001AF090 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBF41F521876A3E6001AF090 /* MessageUI.framework */; };
+		E9FB099E18FB38F300280CF9 /* 2014-04-13 23.24.51.png in Resources */ = {isa = PBXBuildFile; fileRef = E9FB099C18FB38F300280CF9 /* 2014-04-13 23.24.51.png */; };
+		E9FB099F18FB38F300280CF9 /* 2014-04-13 23.25.05.png in Resources */ = {isa = PBXBuildFile; fileRef = E9FB099D18FB38F300280CF9 /* 2014-04-13 23.25.05.png */; };
+		E9FB09A118FB38FF00280CF9 /* iOS Simulator Screen shot 13 apr 2014 23.26.49.png in Resources */ = {isa = PBXBuildFile; fileRef = E9FB09A018FB38FF00280CF9 /* iOS Simulator Screen shot 13 apr 2014 23.26.49.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +53,9 @@
 		CBF41F3B1876A01D001AF090 /* cosplayisforeveryoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cosplayisforeveryoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBF41F3C1876A01D001AF090 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CBF41F521876A3E6001AF090 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		E9FB099C18FB38F300280CF9 /* 2014-04-13 23.24.51.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2014-04-13 23.24.51.png"; sourceTree = "<group>"; };
+		E9FB099D18FB38F300280CF9 /* 2014-04-13 23.25.05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2014-04-13 23.25.05.png"; sourceTree = "<group>"; };
+		E9FB09A018FB38FF00280CF9 /* iOS Simulator Screen shot 13 apr 2014 23.26.49.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iOS Simulator Screen shot 13 apr 2014 23.26.49.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,9 @@
 		CBF41F231876A01D001AF090 /* cosplayisforeveryone */ = {
 			isa = PBXGroup;
 			children = (
+				E9FB09A018FB38FF00280CF9 /* iOS Simulator Screen shot 13 apr 2014 23.26.49.png */,
+				E9FB099C18FB38F300280CF9 /* 2014-04-13 23.24.51.png */,
+				E9FB099D18FB38F300280CF9 /* 2014-04-13 23.25.05.png */,
 				CBF41F2C1876A01D001AF090 /* AppDelegate.h */,
 				CBF41F2D1876A01D001AF090 /* AppDelegate.m */,
 				CBF41F2F1876A01D001AF090 /* Main.storyboard */,
@@ -208,8 +217,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9FB099F18FB38F300280CF9 /* 2014-04-13 23.25.05.png in Resources */,
+				E9FB099E18FB38F300280CF9 /* 2014-04-13 23.24.51.png in Resources */,
 				CBF41F361876A01D001AF090 /* Images.xcassets in Resources */,
 				CBF41F281876A01D001AF090 /* InfoPlist.strings in Resources */,
+				E9FB09A118FB38FF00280CF9 /* iOS Simulator Screen shot 13 apr 2014 23.26.49.png in Resources */,
 				CBF41F311876A01D001AF090 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
