@@ -44,7 +44,7 @@
                                             <action selector="shareButton" destination="vXZ-lx-hvc" eventType="touchUpInside" id="nB8-9Z-rSI"/>
                                         </connections>
                                     </button>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" placeholderIntrinsicWidth="280" placeholderIntrinsicHeight="332" image="Image" highlightedImage="Image" translatesAutoresizingMaskIntoConstraints="NO" id="3E4-B5-fyq">
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" placeholderIntrinsicWidth="280" placeholderIntrinsicHeight="332" image="Image" highlightedImage="Image" translatesAutoresizingMaskIntoConstraints="NO" id="3E4-B5-fyq">
                                         <rect key="frame" x="20" y="74" width="280" height="332"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
@@ -78,6 +78,7 @@
                                     <constraint firstAttribute="trailing" secondItem="OTi-db-fvt" secondAttribute="trailing" constant="20" id="WBN-p4-oyC"/>
                                     <constraint firstAttribute="trailing" secondItem="gVb-gU-jOH" secondAttribute="trailing" constant="28" id="hVr-kr-giT"/>
                                     <constraint firstItem="3E4-B5-fyq" firstAttribute="top" secondItem="krs-39-a71" secondAttribute="top" constant="74" id="kqv-eO-bU0"/>
+                                    <constraint firstAttribute="bottom" secondItem="3E4-B5-fyq" secondAttribute="bottom" constant="74" id="lXS-YI-Bzl"/>
                                 </constraints>
                             </scrollView>
                         </subviews>
