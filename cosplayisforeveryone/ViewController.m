@@ -20,7 +20,7 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    adress = @"thomas@nocebo.se";
+    adress = @"";
     adressArray = [[NSArray alloc]initWithObjects:adress, nil];
     myImage = [UIImage imageNamed:@"Image.png"];
     imageData = UIImagePNGRepresentation(myImage);

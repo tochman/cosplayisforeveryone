@@ -15,12 +15,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    //self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    //UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
     //self.window.rootViewController = [storyboard instantiateInitialViewController];
-    [self.window setRootViewController:[storyboard instantiateInitialViewController]];
+    //[self.window setRootViewController:[storyboard instantiateInitialViewController]];
     //[self.window makeKeyAndVisible];
-    NSLog(@"Root%@", self.window.rootViewController );
+    //NSLog(@"Root%@", self.window.rootViewController );
     return YES;
 }
 
