@@ -188,6 +188,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Luchinda Wollin";
 				TargetAttributes = {
+					CBF41F191876A01D001AF090 = {
+						DevelopmentTeam = 475XYN929R;
+					};
 					CBF41F3A1876A01D001AF090 = {
 						TestTargetID = CBF41F191876A01D001AF090;
 					};
@@ -358,10 +361,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Luchinda Wollin (475XYN929R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cosplayisforeveryone/cosplayisforeveryone-Prefix.pch";
 				INFOPLIST_FILE = "cosplayisforeveryone/cosplayisforeveryone-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "376B5E91-0308-4DD8-B41E-BA55983156FB";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -371,10 +377,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Luchinda Wollin (475XYN929R)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "cosplayisforeveryone/cosplayisforeveryone-Prefix.pch";
 				INFOPLIST_FILE = "cosplayisforeveryone/cosplayisforeveryone-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "376B5E91-0308-4DD8-B41E-BA55983156FB";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
